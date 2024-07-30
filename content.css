@@ -1,0 +1,106 @@
+.box img{
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    z-index: -1;
+    top: 100px;
+    left: 250px;
+}
+
+.box p,h2{
+    width: 500px;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    z-index: -1;
+    left: 550px;
+    bottom: 150px;
+}
+.Contact h2{
+    position: relative;
+    width: 800px;
+    top: 100px;
+    left: 50px;
+    text-align: left;
+    z-index: 0;
+    line-height: 50px;
+}
+.Contact a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+}
+
+
+.edu{
+    z-index: -1;
+    position: relative;
+    top: 100px;
+    font-size: xx-large;
+}
+
+.edu td{
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+.skills{
+    z-index: -1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 100vh;      
+    position: relative;
+    left: -50px;
+    font-size: xx-large;
+    text-align: center;
+}
+.skills th{
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.skills td{
+    padding-left: 40px;
+}
+
+.container{
+    padding-left: 75px;
+}
+.certificate-cell {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .certificate-preview {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+  }
+
+  .certificate-preview img {
+    width: 100%;
+    height: auto;
+  }
+
+  .preview-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: none;
+    width: 700px; 
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.hobbies h2,a{
+    position: relative;
+    top: 5%;
+    left: 20px;
+    color: #fff;
+    text-transform: none;
+    z-index: 0;
+}
